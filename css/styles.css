@@ -1,0 +1,150 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 0.5em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+section {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1em;
+}
+
+.skill {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.skill:hover {
+    background-color: #c0c0c0;
+}
+
+.skill i {
+    font-size: 2em;
+    color: #555;
+}
+
+.project, .job {
+    margin-bottom: 1.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.form .container-input {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin-bottom: 20px;
+}
+
+.form .container-input input,
+.form .container-input textarea {
+    width: 60%;
+    min-height: 25px;
+    height: auto;
+    resize: none;
+}
+.form .container-input label {
+    width: 30%;
+    height: 25px;
+}
+.form .container-input button {
+    width: 50%;
+    height: 25px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100px;
+    transition: transform 0.5s ease;    
+    border-radius: 50%;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
